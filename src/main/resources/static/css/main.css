@@ -1,0 +1,28 @@
+@font-face {
+	font-family: 'Arita-dotum-Medium';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-dotum-Medium.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+html, body {
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	font-family: 'Arita-dotum-Medium', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.modal-body>input {
+	color: blue;
+}
+.needs-validation {
+	width: 100%;
+}
+#email_form {
+	width: 100%;
+}

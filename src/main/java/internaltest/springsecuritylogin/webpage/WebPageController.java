@@ -18,4 +18,9 @@ public class WebPageController {
     public String login(Model model) {
         return "pages/login";
     }
+
+    @GetMapping("/register")
+    public String register(Model model) {
+        return "pages/register";
+    }
 }
